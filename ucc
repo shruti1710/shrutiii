@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+.headerlogo{background-color:#0a1b31;color: white;padding-top:40px;padding-bottom:40px;font-size:20px;font-family:georgia;z-index:2;}
+.footerlogo{background-color:#0a1b31;color:white;padding:40px;text-align:center}
+
+.form { text-align: center;}
+
+input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.address{ text-align: center;}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align : center;
+  text-decoration: none;
+  margin: 8px 2px;
+}
+.ucclogoo a{
+text-align:center;display:incline-block}
+
+.fa:hover{color:grey;}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+border: solid;
+border-radius: 100px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;border: solid;
+border-radius: 100px;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;border: solid;
+border-radius: 100px;
+}
+
+.fa-map{
+  background: #125688;
+  color: white;border: solid;
+border-radius: 100px;
+text-align: center;
+}
+
+.icons{ text-align: center;}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="headerlogo">
+            <img src="logo.png"  style =" width: 140px; height: 140px ;  float:left, margin : 30px">
+
+            <img src="ucclogo.png"  style =" width: 150px; height: 160px ;  float:right; margin : 30px">
+
+            <h2 style="text-align:center;margin-bottom:50px; margin-top:-80px; z-index:4; display:incline-block;margin-left:170px">J.C. Bose University of Science & Technology, YMCA, Faridabad</h2>
+
+
+
+
+        </div>
+    </header>
+
+    <h2 style= " writing-mode: vertical-rl; float: right; display: flex; font-family:Papyrus, sans-serif;text-align: center; font-size: 50px;margin:40px;color: black;
+  border: 10px solid currentcolor;background-color:grey "> Get in touch ! </h2>
+<br><br>
+            <div class="form">
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" ><br>
+  <label for ="Email"> Email Address:</label><br>
+<input type = "text" id="email" name="email" > <br>
+<label for="Query">Query:</label><br>
+  <input type="text" id="query" name="query" ><br>
+
+<input type="submit" value="Submit">
+</form>
+
+
+            </div>
+
+<div class="location"><br><br>
+
+    <div class="ucclogoo">
+        <a href="https://goo.gl/maps/6c3m85f89QicsF1c9" class="fa fa-map" style="float:center;text-align:center;margin-left:550px;z-index:1"></a></div>
+                    <div class="locationucc" style= "text-align:center; font-family: verdana;font-size:20px;padding-bottom:60px;margin-left:-140px;margin-bottom:30px;z-index:2">
+                        LOCATION<br><br>
+                    </div>
+
+            </div>
+
+            <footer>
+<div class="footerlogo">
+                <div class="address" >
+                    <b style= " text-align : center; font-size:30px; font-family: georgia">CONTACT US</b><br>
+<br>
+                    <b>J.C Bose University of Science & Technology, YMCA, Faridabad</b>
+
+                    <p>6, Mathura Rd, Sector 6, Faridabad, Haryana 121006</p>
+
+                    Phone:XXXXXXXXX
+                </div>
+<div class= "icons">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+                </div>
+</div>
+            </footer>
+
+    </div>
+</body>
+</html>
